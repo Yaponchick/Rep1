@@ -63,7 +63,7 @@ const endGame = (winner) => {
     winnerDisplay.style.display = 'flex';
     spanWin.textContent = winner ? `Игрок ${winner}`:'Дружба';
 };
-
+// новая функця
 btnNewGame.addEventListener('click', () => {
     gameItem.forEach(item => {
         item.textContent = ''; 
