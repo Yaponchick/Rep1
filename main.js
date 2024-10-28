@@ -58,7 +58,7 @@ let circleWin = () => {
 let noWin = () => {
     return counter === 9 && !crossWin() && !circleWin();
 };
-
+// Новая функция 2
 const endGame = (winner) => {
     winnerDisplay.style.display = 'flex';
     spanWin.textContent = winner ? `Игрок ${winner}`:'Дружба';
